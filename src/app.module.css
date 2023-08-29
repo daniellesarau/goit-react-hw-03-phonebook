@@ -1,11 +1,13 @@
 .container {
-  width: 350px;
+  display: flex;
+
   padding: 10px 10px;
   border-radius: 10px;
   background-color: lightslategray;
-  justify-content: center;
-  margin-left: 550px;
+  flex-direction: column;
   box-shadow: 16px 21px 85px 25px rgba(0, 0, 0, 0.75);
+  justify-content: center;
+  width: 350px;
 }
 .title {
   display: flex;
